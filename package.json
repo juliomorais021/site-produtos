@@ -1,0 +1,32 @@
+{
+  "name": "products",
+  "homepage": "https://slayerch1.github.io/site-produtos/",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "predeploy":"npm run build" ,
+    "deploy":"gh-pages -d build",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.17",
+    "@vime/core": "^5.3.1",
+    "@vime/react": "^5.3.1",
+    "firebase": "^9.9.3",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.9"
+  }
+}
